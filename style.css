@@ -10,9 +10,9 @@ box-sizing: border-box;
 
 body {
 
-background-color: #1a1a1b;
-color: #e0e0e0;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #1e1e1e;
+color: #e8e6e3;
+font-family: 'Courier New', Courier, monospace;;
 line-height:  1.6;
 
 }
@@ -22,7 +22,7 @@ line-height:  1.6;
 header {
 
 background-color: #0f0f10;
-border-bottom: 2px solid #3e3e42;
+border-bottom: 2px solid #b92d2d;
 padding: 1.5rem 10%;
 display: flex;
 justify-content: space-between;
@@ -36,7 +36,7 @@ z-index: 100;
 .logo {
 
 font-weight: bold;
-color: #4CAF50;
+color: #ff4d4d;
 letter-spacing: 1px;
 font-family: 'Courier New', Courier, monospace;
 
@@ -97,11 +97,12 @@ color: #fffff;
 
 h2 { 
 
-border-left: 4px solid #4CAF50;
-padding-left: 15px;
-text-transform: uppercase;
-font-size: 1.2rem;
-
+background-color: #b92d2d;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
  }
 
 /* Projekt "Cards" styling */
@@ -119,21 +120,19 @@ transition: transform 0.2s;
 
  .projekt:hover {
 
-transform: translateX(5px);
-border-left-color: #4CAF50;
+border-left-color: #b92d2d;
+background: #2d2d2d;
 
  }
 
  code {
-
-display: block;
-background: #000;
-padding: 10px;
-margin-top: 10px;
-color: #00ff41;
-font-size: 0.85rem;
-border-radius: 3px;
-
+    display: block;
+    background: #0a0a0a;
+    padding: 15px;
+    margin-top: 15px;
+    color: #e8e6e3; 
+    border: 1px solid #b92d2d; 
+    font-size: 0.85rem;
  }
 
  footer {
@@ -142,5 +141,6 @@ text-align: center;
 padding: 2rem;
 font-size: 0.8rem;
 color: #666;
+
 
  }
